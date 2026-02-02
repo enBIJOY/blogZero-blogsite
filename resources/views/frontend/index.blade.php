@@ -1,3 +1,6 @@
+@extends('frontend.layout.app')
+@section('title','<||/> | Frontend')
+@section('content')
 <div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		
@@ -16,7 +19,7 @@
 					</div>
 				</div>
 			</div>
-			<section class="ftco-section">
+<section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -366,16 +369,14 @@
 		              		<span><i class="icon-comment"></i>5</span>
 		              	</p>
 	              	</div>
-	              	<div class="half">
+	                <div class="half">
 		              	<p><a href="#" class="btn py-2">Continue Reading <span class="ion-ios-arrow-forward"></span></a></p>
 	              	</div>
 	              </div>
 	            </div>
-						</div>
-    			</div>
-    		</div>
+			</div>
     	</div>
-    </section>
-    
-		</div><!-- END COLORLIB-MAIN -->
-	</div><!-- END COLORLIB-PAGE -->
+    </div>
+</div>
+</section>
+@endsection
