@@ -3,7 +3,7 @@
 @section('content')
 
 @include('frontend.layout.about')
-<section class="ftco-section">
+<section class="ftco-section pb-0">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -131,7 +131,7 @@
             </div>
             <div class="col-md-12">
                 <div class="blog-entry ftco-animate">
-                    <a href="#" class="img" style="background-image: url('{{ asset('frontend/images/image_4.jpg') }}');"></a>
+                    <a href="#" class="img" style="background-image: url('{{ asset('frontend/images/image_5.jpg') }}');"></a>
                     <div class="text pt-2 mt-3">
                         <span class="category mb-1 d-block"><a href="#">Technology</a></span>
                         <h3 class="mb-4"><a href="#">The Newest Technology On This Year 2019</a></h3>
