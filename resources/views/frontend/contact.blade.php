@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-md-6">
-        <div id="map"></div>
+        <img src="{{ asset('frontend/images/bg_4.jpg') }}" alt="Image" class="img-fluid">
         </div>
     </div>
     </div>
