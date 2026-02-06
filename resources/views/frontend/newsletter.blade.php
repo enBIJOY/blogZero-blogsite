@@ -2,7 +2,6 @@
 @section('title','Blog | Newsletter Subscribe')
 @section('content')
 
-@include('frontend.layout.about')
 
 <section class="py-5 text-light">
     <div class="container">
@@ -41,6 +40,22 @@
 
             </div>
         </div>
+    </div>
+</section>
+<section class="conatainer mt-2">
+    <div class="text-center">
+        <h1 class="p-4">Hey Mental People!!</h1>
+    </div>
+    <div>
+        <h4>Introduction</h4>
+        <p><strong>These Website Terms of Use ("Terms") govern your use of our website provided by Dgtal Space ("we," "us," or "our"). By accessing or using our website, you agree to be bound by these Terms. If you disagree with any part of the Terms, please refrain from using our website.</strong></p>
+        <h4>Disclaimer of Warranties</h4>
+        <p><strong>Our website is provided on an "as is" and "as available" basis. We make no warranties or representations of any kind, express or implied, regarding the accuracy, reliability, or completeness of any information on our website.</strong></p>
+        <p><strong>We disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.</strong></p>
+    </div>
+    <div class="text-center p-5">
+        <button class="btn btn-primary">Home</button>
+        <button class="btn btn-primary">Contact</button>
     </div>
 </section>
 
