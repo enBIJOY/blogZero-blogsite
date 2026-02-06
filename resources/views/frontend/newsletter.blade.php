@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
 
-                <h2 class="fw-bold mb-3">Subscribe to Our Newsletter</h2>
+                <h1 class="fw-bold mb-3">Subscribe to Our Newsletter</h1>
                 <p class="text-muted mb-4">
                     Get the latest articles, updates and resources delivered straight to your inbox.
                 </p>
@@ -19,10 +19,14 @@
                     <div class="col-md-8">
                         <input 
                             type="email" 
-                            class="form-control form-control-lg"
+                            class="form-control form-control-lg "
+                            style="border-radius: 50px;"
                             placeholder="Enter your email address"
                             required
                         >
+                        <small class="text-muted d-block mt-3">
+                            No spam. Unsubscribe anytime.
+                        </small>
                     </div>
 
                     <!-- Submit button -->
@@ -33,11 +37,6 @@
                     </div>
 
                 </form>
-
-                <small class="text-muted d-block mt-3">
-                    No spam. Unsubscribe anytime.
-                </small>
-
             </div>
         </div>
     </div>
