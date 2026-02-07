@@ -14,7 +14,7 @@
         <div class="colorlib-footer">
             
             <div class="mb-3 ">
-                <button class="button button-outline-success btn-sm" href="">Login As Admin</button>
+                <a class="button button-outline-success btn-sm" href="{{ route('adminIndex') }}">Login As Admin</a>
             </div>
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
