@@ -5,10 +5,10 @@
         <nav id="colorlib-main-menu" role="navigation">
             <ul>
                 <li class="colorlib-active"><a href="{{ Route('blog') }}">BLOG's</a></li>
-                <li><a href="{{ Route('about') }}">About</a></li>
-                <li><a href="{{ Route('contact') }}">Contact</a></li>
-                <li><a href="{{ Route('newsletter') }}">Newsletter</a></li>
-                <li><a href="{{ Route('skills') }}">Skills</a></li>
+                <li><a href="{{ Route('about') }}">About Us</a></li>
+                <li><a href="{{ Route('contact') }}">Contact Us</a></li>
+                <li><a href="{{ Route('skills') }}">Skills And Activity</a></li>
+                <li><a href="{{ Route('privecyPolicy') }}">Privecy & Policy</a></li>
             </ul>
         </nav>
 

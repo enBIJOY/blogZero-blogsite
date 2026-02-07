@@ -21,4 +21,7 @@ class frontendController extends Controller
     public function contact(){
         return view('frontend.contact');
     }
+    public function privecyPolicy(){
+        return view('frontend.privecyPolicy');
+    }
 }

@@ -35,3 +35,4 @@ Route::get('newsletter',[frontendController::class, 'newsletter'])->name('newsle
 Route::get('blog',[frontendController::class, 'blog'])->name('blog');
 Route::get('skills',[frontendController::class, 'skills'])->name('skills');
 Route::get('contact',[frontendController::class, 'contact'])->name('contact');
+Route::get('privecyPolicy',[frontendController::class, 'privecyPolicy'])->name('privecyPolicy');
