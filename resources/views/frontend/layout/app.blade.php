@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
     <link rel="stylesheet" href="{{('frontend/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{('frontend/css/animate.css')}}">
     

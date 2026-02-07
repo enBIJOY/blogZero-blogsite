@@ -48,7 +48,7 @@
 </footer> -->
 
 
-<footer class="bg-dark text-light text-center text-lg-start">
+<footer class="bg-info text-light text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
@@ -61,19 +61,46 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
           molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae!
         </p>
-        <div class="p-3"></div>
+        <div class="p-3">
+          <ul class="list-unstyled d-flex gap-4 align-items-center justify-content-center">
+            <li>
+              <a href="https://facebook.com/mohammadbijoy.dm" class="text-white fs-5" target="_blank">
+                <i class="lni lni-facebook-filled"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" class="text-white fs-5" target="_blank">
+                <i class="lni lni-twitter-filled"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://insta.com" class="text-white fs-5" target="_blank">
+                <i class="lni lni-instagram-filled"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/mofizuldev" class="text-white fs-5" target="_blank">
+                <i class="lni lni-linkedin-original"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer text</h5>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0 ">
+        <h5 class="text-uppercase text-white">Quick Link's</h5>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-          voluptatem veniam, est atque cumque eum delectus sint!
-        </p>
+        <div>
+          <ul class="list-unstyled">
+            <li><a href="">Blog Page</a></li>
+            <li><a href="">About Us Page</a></li>
+            <li><a href="">Contact Us Page</a></li>
+            <li><a href="">Skills set Page</a></li>
+            <li><a href="">Privecy and Policy</a></li>
+          </ul>
+        </div>
         
       </div>
       <!--Grid column-->
