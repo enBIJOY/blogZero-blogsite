@@ -36,3 +36,8 @@ Route::get('blog',[frontendController::class, 'blog'])->name('blog');
 Route::get('skills',[frontendController::class, 'skills'])->name('skills');
 Route::get('contact',[frontendController::class, 'contact'])->name('contact');
 Route::get('privecyPolicy',[frontendController::class, 'privecyPolicy'])->name('privecyPolicy');
+
+
+Route::get('admin', function () {
+    return view('admin.index');
+})->name('adminIndex');
